@@ -1,0 +1,20 @@
+body { margin: 0; }
+
+#scratch {
+	display: block;
+	margin: 0 auto;
+    background-image: url('after.jpg');
+	background-size: cover;
+	width: 100%;
+	max-width: 1366px;
+	height: 2048px;
+  cursor:  crosshair;
+  cursor: url(circular-cursor.png) 53 53, crosshair;
+}
+#scratchContainer { 
+  text-align: center;
+  font-family: Avenir, sans-serif;
+}
+#scratchContainer figcaption {   
+  margin-top: 2rem; 
+}
